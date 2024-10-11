@@ -16,10 +16,10 @@ click-repl
 colorama
 fastapi
 flower
-graphene
-graphene-sqlalchemy
-graphql-core
-graphql-relay
+graphene==3.0.0b7  # Beta version that supports graphql-core 3
+graphene-sqlalchemy==3.0.0b1
+graphql-core==3.1.7
+graphql-relay==3.0.0
 greenlet
 h11
 humanize
@@ -47,6 +47,7 @@ six
 SQLAlchemy
 starlette
 starlette-graphql
+starlette_graphene3
 toml
 tornado
 typing-extensions

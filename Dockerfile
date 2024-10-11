@@ -1,5 +1,5 @@
 # Use Python base image
-FROM mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
+FROM python:3.9.6-slim-buster
 
 # Prevents Python from buffering outputs (important for logging in containers)
 ENV PYTHONUNBUFFERED=1
